@@ -102,15 +102,16 @@ body{
 
 .footer{
     background: #000;
+    padding: 64px 0;
 }
-  
-.social-list{
-    padding: 64px 0px;
-    text-align: center;
+
+.footer ul{
+    display: flex;
+    justify-content: center;
 }
   
 .social-list li{
-    display: inline-block;
+    padding: 64px 0px;
 }
 
 .text-right{
